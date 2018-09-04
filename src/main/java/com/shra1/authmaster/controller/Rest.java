@@ -1,7 +1,6 @@
 package com.shra1.authmaster.controller;
 
-import com.shra1.authmaster.dbmodels.User;
-import com.shra1.authmaster.dbmodels.UserRepository;
+import com.shra1.authmaster.dbmodels.*;
 import org.jboss.logging.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -14,9 +13,14 @@ public class Rest {
 
    Logger logger = Logger.getLogger(Rest.class);
 
-
    @Autowired
    UserRepository userRepository;
+
+   @Autowired
+   SBUserRepository sbUserRepository;
+
+   @Autowired
+   SBMessageRepository sbMessageRepository;
 
    //<editor-fold desc="No Auth APIs">
    @RequestMapping("/addUser")
@@ -36,6 +40,34 @@ public class Rest {
    @GetMapping("/showByName/{name}")
    public List<User> showUserByName(@PathVariable("name") String name) {
       return userRepository.findByNameDistinct(name);
+   }
+
+   @RequestMapping("/addSBUser")
+   public void addSBUser(@RequestBody SBUser sbUser) {
+      sbUserRepository.save(sbUser);
+   }
+
+   @RequestMapping("/loginSBUser/{email}")
+   public SBUser loginSBUser(@PathVariable("email") String email) {
+      logger.info("email : " + email);
+      SBUser sbUser = sbUserRepository.findByEmail(email);
+      logger.info(sbUser);
+      return sbUser;
+   }
+
+   @RequestMapping("/getAllSBUsers")
+   public List<SBUser> getAllSBUsers() {
+      return sbUserRepository.findAll();
+   }
+
+   @RequestMapping("/addSBMessage")
+   public void addSBMessage(@RequestBody SBMessage sbMessage) {
+      sbMessageRepository.save(sbMessage);
+   }
+
+   @RequestMapping("/getAllSBMessages")
+   public List<SBMessage> getAllSBMessages() {
+      return sbMessageRepository.findAll();
    }
    //</editor-fold>
 
