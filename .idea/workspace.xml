@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5326b4c6-9f97-4764-8988-7283d4c5d0a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shra1/authmaster/dbmodels/SBMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shra1/authmaster/dbmodels/SBMessageRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shra1/authmaster/dbmodels/SBUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shra1/authmaster/dbmodels/SBUserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/shra1/authmaster/controller/Rest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/shra1/authmaster/controller/Rest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shra1/authmaster/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shra1/authmaster/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shra1/authmaster/controller/Rest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shra1/authmaster/controller/Rest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -62,20 +55,21 @@
     <session id="-1241464595">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.79" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="5" />
           <entry key="java" value="47" />
-          <entry key="properties" value="4" />
+          <entry key="properties" value="5" />
           <entry key="sql" value="2" />
         </counts>
       </usages-collector>
@@ -83,7 +77,7 @@
         <counts>
           <entry key="Groovy" value="5" />
           <entry key="JAVA" value="47" />
-          <entry key="Properties" value="4" />
+          <entry key="Properties" value="5" />
           <entry key="SQL" value="2" />
         </counts>
       </usages-collector>
@@ -91,145 +85,29 @@
         <counts>
           <entry key="gradle" value="69" />
           <entry key="java" value="3375" />
-          <entry key="properties" value="175" />
+          <entry key="properties" value="181" />
           <entry key="sql" value="28" />
-          <entry key="txt" value="6" />
+          <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="69" />
           <entry key="JAVA" value="3375" />
-          <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Properties" value="175" />
+          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="Properties" value="181" />
           <entry key="SQL" value="28" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shra1/authmaster/controller/Rest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
-              <folding>
-                <element signature="method#addUser#0;class#Rest#0" />
-                <element signature="method#showUserByName#0;class#Rest#0" />
-                <element signature="e#1423#1424#0" expanded="true" />
-                <element signature="e#1451#1452#0" expanded="true" />
-                <element signature="e#1755#1756#0" expanded="true" />
-                <element signature="e#1801#1802#0" expanded="true" />
-                <element signature="e#1900#1901#0" expanded="true" />
-                <element signature="e#1948#1949#0" expanded="true" />
-                <element signature="e#1997#1998#0" expanded="true" />
-                <element signature="e#2046#2047#0" expanded="true" />
-                <element signature="n#!!doc;n#addUserAuth#0;n#Rest#0" />
-                <element signature="method#addUserAuth#0;class#Rest#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shra1/authmaster/dbmodels/SBMessageRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shra1/authmaster/dbmodels/SBMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#180#183#0" />
-                <element signature="method#SBMessage#0;class#SBMessage#0" />
-                <element signature="method#SBMessage#0;class#SBMessage#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shra1/authmaster/dbmodels/SBUserRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shra1/authmaster/dbmodels/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shra1/authmaster/dbmodels/UserRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shra1/authmaster/dbmodels/SBUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-              <folding>
-                <element signature="e#177#180#0" />
-                <element signature="method#SBUser#0;class#SBUser#0" />
-                <element signature="method#SBUser#1;class#SBUser#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="80">
               <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shra1/authmaster/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#635#636#0" expanded="true" />
-                <element signature="e#711#712#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -698,9 +576,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/shra1/authmaster/dbmodels/SBMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shra1/authmaster/dbmodels/SBMessageRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shra1/authmaster/controller/Rest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/data.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/shra1/authmaster/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -715,7 +593,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -739,30 +616,6 @@
               <item name="authmaster" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="authmaster" type="b2602c69:ProjectViewProjectNode" />
-              <item name="authmaster" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="authmaster" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="authmaster" type="b2602c69:ProjectViewProjectNode" />
-              <item name="authmaster" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="authmaster" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="authmaster" type="b2602c69:ProjectViewProjectNode" />
-              <item name="authmaster" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -770,13 +623,14 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="appl&#9;FILE&#9;file://E:/Shra1/Spring/28082018/authmaster/src/main/resources/application.properties&#10;Rest&#9;FILE&#9;file://E:/Shra1/Spring/28082018/authmaster/src/main/java/com/shra1/authmaster/controller/Rest.java&#10;My&#9;FILE&#9;file://E:/Shra1/Spring/28082018/authmaster/src/main/java/com/shra1/authmaster/security/utils/MyResponseWriterUtil.java&#10;Secu&#9;FILE&#9;file://E:/Shra1/Spring/28082018/authmaster/src/main/java/com/shra1/authmaster/SecurityConfigurations.java&#10;Userde&#9;FILE&#9;file://E:/Shra1/Spring/28082018/authmaster/src/main/java/com/shra1/authmaster/security/service/CustomUserDetailsService.java&#10;Seco&#9;FILE&#9;file://E:/Shra1/Spring/28082018/authmaster/src/main/java/com/shra1/authmaster/SecurityConfigurations.java&#10;UserRe&#9;FILE&#9;file://E:/Shra1/Spring/28082018/authmaster/src/main/java/com/shra1/authmaster/dbmodels/UserRepository.java" />
     <property name="android.sdk.path" value="E:/AndroidSDK/android-sdk/android-sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536064019329" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536064084446" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -863,14 +717,21 @@
       <option name="project" value="LOCAL" />
       <updated>1535707811176</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="third">
+      <created>1536064113663</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1536064113663</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20272315" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20574887" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -938,7 +799,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second" />
-    <option name="LAST_COMMIT_MESSAGE" value="second" />
+    <MESSAGE value="third" />
+    <option name="LAST_COMMIT_MESSAGE" value="third" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/5.0.6.RELEASE/d63394cee2fdc1f0e24e01f80009601efaef4894/spring-security-web-5.0.6.RELEASE-sources.jar!/org/springframework/security/web/session/ConcurrentSessionFilter.java">
@@ -1022,11 +884,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
           <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-          <folding>
-            <element signature="e#177#180#0" />
-            <element signature="method#SBUser#0;class#SBUser#0" />
-            <element signature="method#SBUser#1;class#SBUser#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1048,9 +905,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1058,9 +912,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1068,11 +919,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#180#183#0" />
-            <element signature="method#SBMessage#0;class#SBMessage#0" />
-            <element signature="method#SBMessage#0;class#SBMessage#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1080,42 +926,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
-          <folding>
-            <element signature="method#addUser#0;class#Rest#0" />
-            <element signature="method#showUserByName#0;class#Rest#0" />
-            <element signature="e#1423#1424#0" expanded="true" />
-            <element signature="e#1451#1452#0" expanded="true" />
-            <element signature="e#1755#1756#0" expanded="true" />
-            <element signature="e#1801#1802#0" expanded="true" />
-            <element signature="e#1900#1901#0" expanded="true" />
-            <element signature="e#1948#1949#0" expanded="true" />
-            <element signature="e#1997#1998#0" expanded="true" />
-            <element signature="e#2046#2047#0" expanded="true" />
-            <element signature="n#!!doc;n#addUserAuth#0;n#Rest#0" />
-            <element signature="method#addUserAuth#0;class#Rest#0" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/data.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shra1/authmaster/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shra1/authmaster/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
